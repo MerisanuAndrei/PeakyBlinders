@@ -1,0 +1,156 @@
+html {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+body {
+  margin: 0;
+  padding: o;
+}
+
+.Titlu {
+  text-align: center;
+  color: white;
+  -webkit-transform: translatey(-15%);
+          transform: translatey(-15%);
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: clamp(1rem, 5vw, 4rem);
+  padding: 0;
+  margin-top: .5em;
+  height: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+  background: #ddd;
+}
+
+.galerie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
+  margin-left: 6em;
+}
+
+.galerie a {
+  -webkit-transform: translatey(10%);
+          transform: translatey(10%);
+  height: 250px;
+  width: 350px;
+  margin: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 3px 5px #000;
+          box-shadow: 0 3px 5px #000;
+}
+
+.galerie a img {
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.galerie a img:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+@media (min-width: 375px) {
+  h1 {
+    width: 90%;
+    margin-left: .6em;
+  }
+  .galerie {
+    margin-left: .8em;
+    width: 80%;
+    height: auto;
+    margin-left: 2em;
+  }
+}
+
+@media (min-width: 360px) {
+  .galerie {
+    margin-left: 1em;
+  }
+}
+
+@media (min-width: 412px) {
+  .galerie {
+    margin-left: 2.5em;
+  }
+}
+
+@media (min-width: 820px) {
+  .galerie {
+    width: 90%;
+  }
+  .galerie img {
+    width: 100%;
+  }
+  .galerie a {
+    width: 70%;
+    margin-bottom: 3em;
+  }
+}
+
+@media (min-width: 760px) {
+  .galerie {
+    width: 90%;
+  }
+  .galerie a {
+    width: 70%;
+    margin-bottom: 3em;
+  }
+}
+
+@media (min-width: 280px) {
+  .galerie {
+    width: 90%;
+    margin-left: 1em;
+  }
+  .galerie a {
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-bottom: 2em;
+    margin-top: 0;
+    padding: 0;
+  }
+  .galerie a img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media (min-width: 1000px) {
+  .galerie {
+    margin-left: 3%;
+  }
+  .galerie a {
+    width: 20%;
+  }
+  .galerie img {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=main2PB.css.map */

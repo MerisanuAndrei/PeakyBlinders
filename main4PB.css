@@ -1,0 +1,464 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  background: black;
+}
+
+.Container {
+  font-size: clamp(1rem, 2vw, 2rem);
+  line-height: 1.5em;
+}
+
+.Titlu {
+  padding: .5em;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.Titlu2 {
+  font-weight: bold;
+  margin-left: 1em;
+  color: #777676;
+  font-size: 1.8rem;
+}
+
+ul {
+  margin-left: 2.5em;
+  margin-right: 1em;
+  color: #aba7a7;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+ul li :hover {
+  background: #645858;
+}
+
+ul li a {
+  color: #aba7a7;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.cillian img {
+  width: 3%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.cillian img:hover {
+  width: 25%;
+}
+
+.samneil img {
+  position: static;
+  width: 3%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.samneil img:hover {
+  width: 25%;
+}
+
+.helen img {
+  position: static;
+  width: 3%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.helen img:hover {
+  width: 25%;
+}
+
+.annabelle img {
+  position: static;
+  width: 3%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.annabelle img:hover {
+  width: 25%;
+}
+
+.iddo img {
+  position: static;
+  width: 3%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.iddo img:hover {
+  width: 25%;
+}
+
+.joecole img {
+  position: static;
+  width: 3%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.joecole img:hover {
+  width: 25%;
+}
+
+.benjamin img {
+  position: static;
+  width: 3%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.benjamin img:hover {
+  width: 25%;
+}
+
+.david img {
+  position: static;
+  width: 3%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.david img:hover {
+  width: 25%;
+}
+
+.tommy img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.tommy img:hover {
+  width: 25%;
+}
+
+.noah img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.noah img:hover {
+  width: 25%;
+}
+
+.tomhardy img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.tomhardy img:hover {
+  width: 25%;
+}
+
+.charlote img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.charlote img:hover {
+  width: 25%;
+}
+
+.gaite img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.gaite img:hover {
+  width: 25%;
+}
+
+.alexander img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.alexander img:hover {
+  width: 25%;
+}
+
+.dina img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.dina img:hover {
+  width: 25%;
+}
+
+.paddy img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.paddy img:hover {
+  width: 25%;
+}
+
+.charliem img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.charliem img:hover {
+  width: 25%;
+}
+
+.jackr img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.jackr img:hover {
+  width: 25%;
+}
+
+.aidang img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.aidang img:hover {
+  width: 25%;
+}
+
+.adrienb img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.adrienb img:hover {
+  width: 25%;
+}
+
+.kingsleyb img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.kingsleyb img:hover {
+  width: 25%;
+}
+
+.anyat img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.anyat img:hover {
+  width: 25%;
+}
+
+.cosmoj img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.cosmoj img:hover {
+  width: 25%;
+}
+
+.briang img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.briang img:hover {
+  width: 25%;
+}
+
+.samc img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.samc img:hover {
+  width: 25%;
+}
+
+.kated img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.kated img:hover {
+  width: 25%;
+}
+
+.charlenem img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.charlenem img:hover {
+  width: 25%;
+}
+
+.jamesf img {
+  position: static;
+  width: 4%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.jamesf img:hover {
+  width: 25%;
+}
+
+.stepheng img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.stepheng img:hover {
+  width: 25%;
+}
+
+.emmetj img {
+  position: static;
+  width: 3.5%;
+  -webkit-transition-property: width, height;
+  transition-property: width, height;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.emmetj img:hover {
+  width: 25%;
+}
+
+@media (min-width: 360px) {
+  .info img {
+    width: 50%;
+  }
+  .listaPrincipala {
+    margin-left: 1em;
+  }
+}
+
+@media (min-width: 280px) {
+  .info img {
+    width: 50%;
+  }
+  .listaPrincipala {
+    margin-left: 1em;
+  }
+}
+
+@media (min-width: 820px) {
+  .info img {
+    width: 3%;
+  }
+  .listaPrincipala {
+    margin-left: 1em;
+  }
+}
+/*# sourceMappingURL=main4PB.css.map */
