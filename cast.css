@@ -1,0 +1,441 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7em;
+}
+
+html {
+  background: black;
+}
+
+.home {
+  margin-top: 2rem;
+  display: none;
+  margin-left: 92%;
+  padding: 0;
+  z-index: 1234;
+  width: 4em;
+  border: none;
+  height: 0.3rem;
+}
+.home img {
+  height: auto;
+  width: 10.5%;
+}
+.home a {
+  font-size: 0.8rem;
+}
+
+.homeBtn {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  color: white;
+  text-decoration: none;
+}
+.homeBtn:hover {
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+  transition: 1.5s;
+}
+
+.Titlu {
+  padding: 0.5em;
+  color: white;
+  margin: 0;
+  width: 60%;
+  font-size: clamp(1.5rem, 2vw, 1.7rem);
+}
+
+ul {
+  font-size: clamp(1rem, 1.2vw, 1.5rem);
+  margin-left: 2.5em;
+  margin-right: 1em;
+  color: rgb(252, 230, 230);
+  line-height: 2em;
+}
+ul li :hover {
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+  transition: 1.5s ease;
+}
+ul li a {
+  color: rgb(171, 167, 167);
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.cillian img {
+  width: 3%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.cillian img:hover {
+  width: 25%;
+}
+
+.samneil img {
+  position: static;
+  width: 3%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.samneil img:hover {
+  width: 25%;
+}
+
+.helen img {
+  position: static;
+  width: 3%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.helen img:hover {
+  width: 25%;
+}
+
+.annabelle img {
+  position: static;
+  width: 3%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.annabelle img:hover {
+  width: 25%;
+}
+
+.iddo img {
+  position: static;
+  width: 3%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.iddo img:hover {
+  width: 25%;
+}
+
+.joecole img {
+  position: static;
+  width: 3%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.joecole img:hover {
+  width: 25%;
+}
+
+.benjamin img {
+  position: static;
+  width: 3%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.benjamin img:hover {
+  width: 25%;
+}
+
+.david img {
+  position: static;
+  width: 3%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.david img:hover {
+  width: 25%;
+}
+
+.tommy img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.tommy img:hover {
+  width: 25%;
+}
+
+.noah img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.noah img:hover {
+  width: 25%;
+}
+
+.tomhardy img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.tomhardy img:hover {
+  width: 25%;
+}
+
+.charlote img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.charlote img:hover {
+  width: 25%;
+}
+
+.gaite img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.gaite img:hover {
+  width: 25%;
+}
+
+.alexander img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.alexander img:hover {
+  width: 25%;
+}
+
+.dina img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.dina img:hover {
+  width: 25%;
+}
+
+.paddy img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.paddy img:hover {
+  width: 25%;
+}
+
+.charliem img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.charliem img:hover {
+  width: 25%;
+}
+
+.jackr img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.jackr img:hover {
+  width: 25%;
+}
+
+.aidang img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.aidang img:hover {
+  width: 25%;
+}
+
+.adrienb img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.adrienb img:hover {
+  width: 25%;
+}
+
+.kingsleyb img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.kingsleyb img:hover {
+  width: 25%;
+}
+
+.anyat img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.anyat img:hover {
+  width: 25%;
+}
+
+.cosmoj img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.cosmoj img:hover {
+  width: 25%;
+}
+
+.briang img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.briang img:hover {
+  width: 25%;
+}
+
+.samc img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.samc img:hover {
+  width: 25%;
+}
+
+.kated img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.kated img:hover {
+  width: 25%;
+}
+
+.charlenem img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.charlenem img:hover {
+  width: 25%;
+}
+
+.jamesf img {
+  position: static;
+  width: 4%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.jamesf img:hover {
+  width: 25%;
+}
+
+.stepheng img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.stepheng img:hover {
+  width: 25%;
+}
+
+.emmetj img {
+  position: static;
+  width: 3.5%;
+  transition-property: width, height;
+  transition-duration: 1s;
+}
+.emmetj img:hover {
+  width: 25%;
+}
+
+@media (min-width: 360px) {
+  .info img {
+    width: 50%;
+  }
+  .listaPrincipala {
+    margin-left: 1em;
+  }
+}
+@media (min-width: 280px) {
+  .info img {
+    width: 50%;
+  }
+  .listaPrincipala {
+    margin-left: 1em;
+  }
+}
+@media (min-width: 820px) {
+  .info img {
+    width: 3%;
+  }
+  .listaPrincipala {
+    margin-left: 1em;
+  }
+}
+@media (min-width: 760px) {
+  .home {
+    display: block;
+    position: fixed;
+    place-items: center;
+    transform: translatex(25%);
+    padding: 0;
+    z-index: 1234;
+    width: 3em;
+    border: none;
+    height: 0.3rem;
+  }
+  .home img {
+    width: 0.6em;
+  }
+  .home a {
+    font-size: 0.7rem;
+    margin-top: 2.5px;
+  }
+  .homeBtn {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    color: white;
+    text-decoration: none;
+  }
+  .homeBtn:hover {
+    -webkit-text-decoration: underline red;
+            text-decoration: underline red;
+    transition: 1.5s;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .home {
+    left: 1em;
+    top: -0.5em;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .home {
+    left: 3em;
+    top: -0.5em;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .home {
+    left: 8em;
+    top: -0.5em;
+  }
+}/*# sourceMappingURL=main4PB.css.map */

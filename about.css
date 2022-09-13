@@ -1,0 +1,111 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.titlu {
+  margin-bottom: 2em;
+  color: white;
+  margin-left: 10px;
+  font-size: clamp(1.5rem, 2vw, 2rem);
+}
+
+.info {
+  display: grid;
+  justify-items: center;
+}
+
+.descriere {
+  box-shadow: rgba(220, 220, 250, 0.25) 0px 50px 100px -20px, rgba(243, 228, 228, 0.3) 0px 30px 60px -30px;
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  margin-bottom: 3em;
+  padding: 1em;
+  line-height: 1.5em;
+  background-color: rgba(95, 95, 96, 0.9);
+  border-radius: 10px;
+  color: black;
+  width: 70%;
+  text-align:center;
+}
+
+.home {
+  margin-top: 2rem;
+  display: none;
+  position: absolute;
+  padding: 0;
+  z-index: 1234;
+  border: none;
+  font-size: 1.3em;
+  font-family: "Poppins", sans-serif;
+  height: 0.3rem;
+}
+
+.homeBtn:hover {
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+  transition: 1.5s;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  color: white;
+}
+a:hover {
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+  transition: 1.5s;
+}
+
+@media screen and (min-width: 760px) {
+  .home {
+    display: block;
+    position: fixed;
+    right: -3em;
+    top: 0em;
+    padding: 0;
+    z-index: 1234;
+    width: 8rem;
+    border: none;
+    font-size: 1.3rem;
+    font-family: "Poppins", sans-serif;
+    height: 0.3rem;
+  }
+ 
+  .homeBtn {
+    font-size: 0.8rem;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    color: white;
+    text-decoration: none;
+  }
+  .homeBtn:hover {
+    -webkit-text-decoration: underline red;
+            text-decoration: underline red;
+    transition: 1.5s;
+  }
+}
+@media screen and (min-width: 2500px) {
+  .titlu {
+    font-size: 4rem;
+  }
+  .descriere {
+    font-size: 2.5rem;
+    line-height: 1.5em;
+  }
+  .home {
+    right: -1.5em;
+    top: 0.5em;
+  }
+  .homeBtn {
+    font-size: 1.5rem;
+  }
+}

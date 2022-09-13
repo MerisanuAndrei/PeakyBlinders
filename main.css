@@ -1,0 +1,137 @@
+
+body{
+  display: flex;
+  background-color: black;
+}
+.container-lg{
+  margin: 0;
+  
+}
+li{
+  padding: 20px;
+}
+hr{
+  box-shadow: rgba(200, 200, 204, 0.25) 0px 50px 100px -20px, rgba(126, 121, 121, 0.3) 0px 30px 60px -30px, rgba(87, 128, 168, 0.35) 0px -2px 6px 0px inset;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0.5rem;
+  background: rgb(222,222,222);
+  background: linear-gradient(90deg, rgba(222,222,222,1) 0%, rgba(167,168,167,1) 50%, rgba(60,66,63,1) 100%); 
+  min-height: 10em;
+  position: relative;
+  transform: rotate(-20deg);
+  margin-top: -15rem;
+  z-index: -1;
+  border-radius: 5px;
+}
+.footer{
+  margin-top: 5rem;
+  font-size: 1.5em;
+  padding-left: 2%;
+  font-family: "Poppins", sans-serif;
+  color: rgb(175, 173, 173);
+  text-align: left;
+  width: 70%;
+}
+h1{
+  font-size: clamp(1rem, 3vh, 2rem);
+}
+a {
+  font-size: clamp(0.6rem, 2vh, 0.8rem);
+  letter-spacing: 0.5px;
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins",sans-serif;
+}
+a:hover {
+  transition: 1s;
+  color: grey;
+}
+.logo{
+  margin-bottom: 1rem;
+  margin: auto;
+  width: 50%;
+  margin-top: 10rem;
+}
+.logo .Avatar {
+  border-radius: 35px;
+  animation: moveLogo 1s alternate-reverse infinite;
+  width: 100%;
+}
+@keyframes moveLogo {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50px);
+  }
+}
+@keyframes moveLogo {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50px);
+  }
+}
+@media (min-width:400px){
+  .footer{
+    margin-top: 5rem;
+  }
+}
+.space{
+  margin-top:2rem
+}
+@media (min-width:550px){
+  .space{
+    margin-top: 6rem;
+  }
+  h1{
+    margin-top: 7rem;
+  }
+  .logo{
+    width: 30%;
+  }
+}
+@media(min-width:600px){
+  hr{
+    height: 20rem;
+    margin-top: -25rem;
+  }
+  h1{
+    margin-top: 12rem;
+  }
+}
+@media(max-width:990px){
+  body{
+    display: block;
+  }
+  li{
+    padding: 10px;
+  }
+}
+
+@media (min-width:1024px){
+  hr{
+    height: 20rem;
+  }
+  h1{
+    margin-top: 18rem;
+  }
+  li{
+    margin-left: -1rem;
+  }
+}
+@media (min-width:1440px){
+  hr{
+    height: 30rem;
+    width: 123%;
+  }
+  .logo{
+    width: 30%;
+  }
+  h1{
+    margin-top: 28rem;
+    margin-right: 5rem;
+  }
+}
