@@ -19,6 +19,15 @@ html {
   border: none;
   height: 0.3rem;
 }
+#castHome{
+  color: white;
+  text-decoration: none;
+}
+#castHome:hover{
+  -webkit-text-decoration: underline red;
+  text-decoration: underline red;
+transition: 1.5s;
+}
 .home img {
   height: auto;
   width: 10.5%;
