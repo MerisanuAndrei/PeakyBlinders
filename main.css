@@ -32,7 +32,7 @@ hr{
   font-family: "Poppins", sans-serif;
   color: rgb(175, 173, 173);
   text-align: left;
-  width: 70%;
+  width: 100%;
   height: auto;
 }
 h1{
@@ -94,7 +94,6 @@ a:hover {
     width: 30%;
   }
   nav{
-    justify-content:;
     width: 50%;
     transform: translatex(250%);
   }
@@ -129,9 +128,8 @@ a:hover {
     padding: 30px;
   }
   nav{
-    justify-content:;
-    width: 69%;
-    transform: translatex(140%);
+    width: 78%;
+    transform: translatex(150%);
   }
 }
 @media (min-width:1440px){
@@ -147,8 +145,7 @@ a:hover {
     margin-right: 5rem;
   }
   nav{
-    justify-content:;
     width: 69%;
-    transform: translatex(170%);
+    transform: translatex(190%);
   }
 }
