@@ -4,7 +4,7 @@ html {
 
 body {
   background-color: black;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Times New Roman', Times, serif , sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -20,7 +20,11 @@ body {
   display: grid;
   justify-items: center;
 }
-
+.descriere::first-letter{
+  font-size:1.5em;
+  font-family: Raleway;
+ 
+}
 .descriere {
   box-shadow: rgba(220, 220, 250, 0.25) 0px 50px 100px -20px, rgba(243, 228, 228, 0.3) 0px 30px 60px -30px;
   font-size: clamp(1.2rem, 2vw, 1.5rem);
